@@ -1,5 +1,15 @@
+import { Layout } from "./layout";
+
+import { InformationCards } from "./components/InformationCards";
+import { SalesChart } from "./components/SalesChart";
+import { OrdersTable } from "./components/OrdersTable";
+
 export function App() {
   return (
-    <div>App</div>
+    <Layout>
+      <InformationCards />
+      <SalesChart />
+      <OrdersTable />
+    </Layout>
   );
 }
